@@ -49,10 +49,7 @@
 				mostrarError("Nombre de usuario demasiado largo");
 			}
 			else if(usuario == "" || correo == "" || contraseña == "") {
-				mostrarError("Debes rellenar todos los campos ^_^");
-			}
-			else {
-				window.location.href = "login.html";
+				mostrarError("Hay algún campo vacío");
 			}
 		});
 
